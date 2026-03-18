@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Online Shop</title>
+    <style>
+        /* 1. NAV BAR COLORS */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* Deep Navy from Nav */
+            margin: 0;
+            color: white;
+        }
+
+        header {
+            background-color: #1e293b; /* Lighter Navy from Nav */
+            color: #38bdf8;           /* Sky Blue Accent */
+            padding: 25px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Keeps products tidy on mobile */
+            margin-top: 20px;
+        }
+
+        /* 2. PRODUCT CARDS - Styled like Nav Items */
+        .product {
+            background-color: #1e293b; /* Matches Nav Background */
+            width: 200px;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid rgba(56, 189, 248, 0.1); /* Subtle blue border */
+            transition: 0.3s;
+        }
+.cate {
+            background-color: #1e293b; /* Matches Nav Background */
+            width: 30%;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid rgba(56, 189, 248, 0.1); /* Subtle blue border */
+            transition: 0.3s;
+        }
+
+h1 {
+background-color: #1e293b; /* Lighter Navy from Nav */
+            color: #38bdf8;           /* Sky Blue Accent */
+            padding: 25px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+        .product:hover {
+            border-color: #38bdf8; /* Glows blue on hover */
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+
+        .price {
+            color: #38bdf8; /* Price matches the Nav blue */
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+            
+hr {
+background-color:#38bdf8;
+height:3px;
+border:none;
+ }
+        /* 3. BUTTON - Styled like the Blue Box */
+        button {
+            background-color: #38bdf8;
+            color: #0f172a;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+ 
+        button:hover {
+            background-color: #ffffff;
+        }
+
+        a { text-decoration: none; }
+    </style>
+</head>>
+<body>
+
+<header>
+    <h1>My Online Shop</h1>
+</header>
+<h2 class=price>Choose Category Of Product:</h2>
+<div style="display:flex ;flex-wrap:wrap ; justify-content:center">
+<div class="cate">
+        <h3>1.</h3><a href=""> <button >Electronics</button></a>
+   </div>
+<div class="cate">
+       <h3>2.</h3> <a href=""> <button >Clothing</button></a>
+   </div>
+<div class="cate">
+        <h3>3.</h3><a href=""> <button >Books</button></a>
+   </div>
+<div class="cate">
+      <h3>4.</h3>  <a href=""> <button >Home Appliances</button></a>
+  </div>
+<div class="cate">
+       <h3>5.</h3> <a href=""> <button >Sports</button></a>
+   </div>
+<div class="cate">
+       <h3>6.</h3> <a href=""> <button >Beauty Products </button></a>
+   </div>
+
+</div>
+
+<hr>
+<h1>Electronics</h1>
+<div class="container">
+
+    <div class="product">
+        <img src="iphone-15-pro-max.png">
+        <h3>Iphone 17 pro </h3>
+        <p class="price">₹1,54,900 </p>
+       <a href="https://www.amazon.in/iPhone-Pro-512-Promotion-Breakthrough/dp/B0FQF5DG3P?ref_=ast_sto_dp&th=1"> <button >Add to Cart</button></a>
+    </div>
+
+    <div class="product">
+        <img src="lap.png">
+        <h3>MacBook</h3>
+        <p class="price">₹1,32,990</p>
+       <a href="https://www.amazon.in/Apple-MacBook-13-inch-10-core-Unified/dp/B0DZF1485D/ref=sr_1_5?crid=1TSJOKUPPQ7DF&dib=eyJ2IjoiMSJ9.VLeYQd5Gfampur7zh24I1SPlDk8PDJCjOIJDvb2EvEzsAzDQL_A9aCkyVOPP9NH0eCIi5lZVT-jay1CgP0Md1tigRjDk-JbTRWJTCgbcouoam7gbXt4vzvJFOtBEU18_pDNaqIUC-agwHYMdDPMBc6E6WrpwDsnhCQaYftaUhCjzq6yu1fZBjeJJdPFR7jjbmrhj1SwyWtCFVYzbxvSjXO6xzblhT5l0TXCJk.mPRaL38aa-Q0ufVSUqbAF8yQr-UmfYVhT9ZM5SADhMM&dib_tag=se&keywords=MacBook&qid=1772623328&sprefix=macbook%2Caps%2C520&sr=8-5&th=1"> <button>Add to Cart</button></a>
+    </div>
+<div class="product">
+        <img src="ps.png">
+        <h3>Sony PlayStation5 </h3>
+        <p class="price">₹49,990 </p>
+       <a href="https://www.amazon.in/Sony-PlayStation%C2%AE5-Digital-Edition-slim/dp/B0CY5QW186/ref=sr_1_3?crid=S0RQQQN9T5CM&dib=eyJ2IjoiMSJ9.ag8_Ed-E8zTPkP09eaoUh0Il1jB3IYc_1AP8zw-MH_mbpaa7JN5BJUz_Vygtl1grgRfvQAZ0cAAWM2uv9qyknoDzHXvdxuqVRggRIB9jJMYz3dp1Ap1mmn0EPdHySXJu0tuYZuAdb4kk-p40K_PtlXkx_6L9x2DnCQF1U8JHAcMWb-VPX0MfHyq3m7sCFEdaQ1bPtmp8PdPYdxg6mA7fg-42v2qg5fdEAWX0uZhn1Ak.VlmuiCMmO-YTGSBO7kVfzZkIMP92kRZ4-s-a3bbPnhI&dib_tag=se&keywords=ps5&qid=1772625325&sprefix=ps5%2Caps%2C400&sr=8-3"> <button>Add to Cart</button></a>
+    </div>
+
+<div class="product">
+        <img src="rol.png">
+        <h3>Rolex Watch</h3>
+        <p class="price">₹1,06,740 </p>
+       <a href="https://www.amazon.in/Victorinox-Journey-Automatic-Watch-242010/dp/B0C1RZZ2YZ/ref=sr_1_5?crid=1ONZK75VJAMZT&dib=eyJ2IjoiMSJ9.wSYei8yI-v_jH1zNvLoxTsx9wdR2O__rM5F6ZKobW6z_cTy_IZwb_TQ3nGB13Ggo73Y7sbWZ1bFi-6H1Xgmm7UUJPTPfKlTEr1WoFvIxB2w39_5lgU12UYYttl3Rb2kfk-yevlfUtzPkCHr0mRWhn1MApoIK2NGCoEusRqyihjJsgd5gkW_7GNKXGBUUgJB_oalcKgdHEMoANMbr-zSsX6KZW4Wvod-g8poB4J4d3b60GX9XDQMZFHn4mtciZvH5moSykJ3D4Mye_osBFeQilD5klT-FOUTxjLbg-IzCZRc.4fn9GVTxviusPUOKdJUCBRj_XOwlHPypW7t_t8v6qNI&dib_tag=se&keywords=rolex+watch+for+man&qid=1772623878&sprefix=role%2Caps%2C482&sr=8-5"> <button>Add to Cart</button></a>
+    </div> 
+
+</div>
+<div class="container">
+<div class="product">
+        <img src="tab.png">
+        <h3>Redmi Pad 2</h3>
+        <p class="price">₹15,999 </p>
+       <a href="https://www.amazon.in/Redmi-Pad-Support-AI-Enabled-Graphite/dp/B0FBRS76BR/ref=sr_1_1_sspa?crid=2L3KIDV1A3ISG&dib=eyJ2IjoiMSJ9.zN0ukQmj2yv_bVtT4hl-bIqoH_lgKB_HvoIzatKpiRZyAT5rufDqc2pERk0v-13U6EQlbzQX1mApNWEWzvEu7a-X9d_acfeLfFs-B1aKIOvL27nqroALY5vfy--LsdiWw264DCwNfmi7Fn7u17yrrDsgBdPSxV7N1J8Y0Pb_LHOQLrIHT_hoFt1LYCI0AhqKLaeosZukuf4z74hVnl4csagBJ0Pkkg1VirpZPALidC8.FMKGGRp_AbpOR-ROuw5uZjA9pBfL4AUvFhnQL6BU9Sg&dib_tag=se&keywords=tablet&qid=1773052009&sprefix=tablate%2Caps%2C396&sr=8-1-spons&aref=rCKWlM19ol&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> <button >Add to Cart</button></a>
+    </div>
+<div class="product">
+        <img src="pod.png">
+        <h3>Apple AirPods</h3>
+        <p class="price">₹16,990 </p>
+       <a href="https://www.amazon.in/Apple-AirPods-Generation-MagSafe-USB%E2%80%91C/dp/B0CHX719JD/ref=sr_1_1?crid=PJF92MUKCTJQ&dib=eyJ2IjoiMSJ9.YbI3tXYKBY6dF-5K5aqoD_58d8HWKGSTr8Fm2zxN5n07chPZRpvnzFy63udOJn8uMPzlGE59z-T3yQgMwfVaknPnbH3d7bIUM9IBiamRT8SwrIcPIIByEp7DI1ZrwOUHVUABmDgdtgXJTOsJo3iVPilRVtZ1Ecxc4Fp3iruytWPskvHWxvnElaAs9XyyMBHn7HF3hXc9nh91_6TWb9XRR_o-KYT0dByJnWSRe3vXyqk.-3O9oweLEVzgR0o8ncts0ggMCO7bBV6bp29qQwml3IM&dib_tag=se&keywords=apple+white+pod&nsdOptOutParam=true&qid=1773052903&sprefix=apple+white+pod%2Caps%2C407&sr=8-1"> <button>Add to Cart</button></a>
+    </div>
+ <div class="product">
+        <img src="tv.png">
+        <h3>Sony 108 cm (43 inches) TV</h3>
+        <p class="price">₹41,590</p>
+       <a href="https://www.amazon.in/Sony-inches-BRAVIA-Google-K-43S25M2/dp/B0F7XFCHK4/ref=sr_1_5?crid=1CKSKMYHJR8XF&dib=eyJ2IjoiMSJ9.rV1jOIVunxisLyuRC3dzMaSY3fyDlvrCzrg_xywfe7myCDmL-eioydBIqfkRePagGdIEASspREImI8soelM2FhbnrCz2Kj845RftKVGg69k47RPc8KDuOjoS36JblaN6KHer6OX4Ne_t7EZ3ZKUfF1FbEVXYdyaWLOL4BxjJunHZw6cshfsCmm8K9NAHC1Bt3IuifdaSLZpPPJCIIhB3ips9GCVyK1GOmfIQZ_Dk1-0.1sUmGjhYwS5InNkH32Ca1zjsJt-whw4MFm0EJmoCF9A&dib_tag=se&keywords=sony%2Bhd%2Btv&qid=1773053911&sprefix=sony%2Bhd%2Btv%2Caps%2C436&sr=8-5&th=1"> <button>Add to Cart</button></a>
+    </div>
+
+   
+    <div class="product">
+        <img src="sho.png">
+        <h3>Nike Mens Shoes</h3>
+        <p class="price">₹2,217 </p>
+       <a href="https://www.amazon.in/Nike-FB2207-400-NIKE-Revolution-7Sneaker/dp/B0CKZCKJGD/ref=sr_1_5?crid=3SEOX9019P0PE&dib=eyJ2IjoiMSJ9.mt8AVKKe95WVFOhUlPRvPbefnnzQIKJnlodv3cxJobyhVNg_yLj7Iu2gJ7YCtpkfiLnnDF--mh5kHaeOjAl7CYVMu6GigzIxOU2vuvwkC3hOKIajO-6rfnzlg26qa0TPFavjjwKVJ6FhxKzCEWkE1TYR78dDGqMsytnuWFv4395dqfBJNSA5F_LSeUXv_83C7o1APHS7Pu0J4kQv1NY_pG38A_0yLdXQgCkvuPSTpx9eDCle_2iK_WZ65nYes7jjT0mb4mNWZppRUpeXB0sDLyqpfj49UY2VI3S2pKk-6I8.RDOQuPV6hoaSzyXHV2Nof45LVZUd3h-9gVGhIMeqKns&dib_tag=se&keywords=nike%2Bshoes&qid=1772625123&sprefix=nike%2Bshoes%2B%2Caps%2C493&sr=8-5&th=1&psc=1"> <button>Add to Cart</button></a>
+    </div>
+
+ </div> 
+<hr>  
+<h1>Clothing</h1>
+
+
+<div class="container">
+
+  <div class="product">
+        <img src="shirt.png">
+        <h3>Lacoste Men Shirts </h3>
+        <p class="price">₹10,000</p>
+       <a href="https://www.amazon.in/Lacoste-Mens-Slim-Shirts-CH5253BMY_Green_BMY/dp/B0DVT1K113/ref=sr_1_5?crid=16J7X93U6MTO9&dib=eyJ2IjoiMSJ9.ncSUpg6HcYnO6tmfduDLRVdH3UjHpodR6GpPaUT9GkIHOjjh_q_slMxvUoG5tgp9NoXQnS67P28LIP1HPkuwj_E2OKFX_CKBjx53WglGcBFhUYSRAw2mOUq_kFziDw0V4xBUpsHg-HwTXhYes3tDa3hj6McnaDqOy6LmNySt3pVWYLzU9MMDIL7I8nO0X_MdzlLFylwDSjiGaFZzrCmCdh6ETUN7NPuFAM3wybbAZs4-hWEHzfDxWbRCujp89hHdcPZEoWaUhHPax0dYcaVcLAiAOm69EWvKv2U9mWPvAoo.A2EtYo17TrKISb3vAXx1UgTysFhdqlzCw8hMESvWRcw&dib_tag=se&keywords=lacoste%2Bshirt&qid=1772624787&sprefix=casoste%2Bshirt%2Caps%2C411&sr=8-5&th=1&psc=1"> <button >Add to Cart</button></a>
+    </div>
+ <div class="product">
+        <img src="bag.png">
+        <h3>Lavie Signature Bags </h3>
+        <p class="price">₹2,759  </p>
+       <a href="https://www.amazon.in/Lavie-Signature-Handbag-Stylish-Shoulder/dp/B0F9YQQC47/ref=sr_1_4_sspa?crid=1L4RQ9S0ZBQU2&dib=eyJ2IjoiMSJ9.qxX5oqFhGbQb4FgWOWrqv4oFYO7SrmaEGU7uHxoXbUhq-jvqdXMmrAmCfEu-fbGWKHsCsp_ztWm3l2OwGNXVSKtAtOIOsiF3kfqnRjNSCQlKBCGug9YuFl4LFyNrg7ozJgCRW2-euNiGaZSI3BhgP1OTk1hgHYCmSE0goxWgj2rlLGRxcSHsp2FjHb8uaItp2rb8zpzT404o4ulSHc256oBjmdqocC5Ai__RWE84f0l2t2TKRqgYEEMgmDszzN27I5EwhyCq9qaKFinPEL0xOrKbMc4nuH7PSkNaXiuXgAY.mokrEslIB23dPIhyYNcJtT6k25ldoWcdjOCMu1gmp-0&dib_tag=se&keywords=gucci%2Bbags%2Bfor%2Bwomen%2Boriginal&qid=1773662936&sprefix=gucci%2B%2Caps%2C617&sr=8-4-spons&aref=z6u79aGO5x&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1"> <button>Add to Cart</button></a>
+    </div>
+
+  <div class="product">
+        <img src="jeans.png">
+        <h3>Men's Cotton Stretch Jeanst</h3>
+        <p class="price">₹1,499 </p>
+       <a href="amazon.in/Symbol-Premium-Stretch-Regular-Blue_34/dp/B0DPKLHYRL/ref=sr_1_1_sspa?crid=251CU6CB7HV9X&dib=eyJ2IjoiMSJ9.I14RnZ9Tqe6AAFEaBkENy9CUiz5GhMYjwBW2sT30Ph9teSNmxlzJLi4a-fz7J2ZPC8YsEws5c0ybsFukxx36H73ryW0eaYEMIGZX7hdKfQbqagtSen1VM6pFIBI9Kes4TihHZdOUfaMWRBakpKP0AnDKMYuQSvh0tw-S8Y3lgsRADd7AoXMq7JoGOO4XJsRuAYj76MoV2ykfD8dVeytdXIj5XE69IJeyWSB5blbL69q90jOJrukgKWy_gnLMKq4GYGVzi_WDlTB37nvUTn-AcADARNb-OSPAV_OCJ0WaRcQ.rMxsCX4_U3aZp0ZzdMMIzcSAt1EH_JGg1xnMH3HNGW8&dib_tag=se&keywords=classic+blue+jeans&qid=1773830572&sprefix=classic+blue%2Caps%2C434&sr=8-1-spons&aref=twsD1vHozy&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> <button>Add to Cart</button></a>
+    </div>
+</div>
+    <div class="product">
+        <img src="lbat.png">
+        <h3>Cricket Bat</h3>
+        <p class="price">₹1,699</p>
+       <a href="https://www.amazon.in/Kashmir-Willow-Proflax-Cricket-Harrow/dp/B0B1X4LRRL/ref=sr_1_21_sspa?crid=1O4QQYDMIBZM3&dib=eyJ2IjoiMSJ9.Z2TurLwN0Vl_nd70SCzDTqXzwXqXFC0XaVqM_kJbTLy5X0kO8vHfw_bKtNiH5fkT-V6ib-MpvW7dpsyLuRXF6jZYDazfs_vzbJFN9AY6WhhZEU_WyJ3MTC8I_KQ1b7SU4PcJdEHu3CwcHeSTkldGuO1cfEnNftggQ8G6VsChSUJbyfB9EgCYRghPVDE4BcCnG7uzxYdPICShuFKWrcKhBIuHPDdIYvY9fmnKcgbbExorI4LpUwbiEdSjWYH-nxOEFvOqqWB_seBinT208FAqcIUDFYtIZmsnRyTyC6I1Daw.xRtXXijCGxjjnos9gvO1GqOunD_PCBo9R_zzHvt6f3w&dib_tag=se&keywords=leather%2Bbat%2Bfor%2Bcricket%2B50k&qid=1773052499&sprefix=leather%2Bbat%2Bfor%2Bcricket%2B50k%2Caps%2C459&sr=8-21-spons&aref=rpSCFoYUHa&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1"> <button>Add to Cart</button></a>
+    </div>
+
+
+    
+
+</div>
+<div class="container">
+
+    <div class="product">
+        <img src="per.png">
+        <h3>Lattafa Khamrah Prefume</h3>
+        <p class="price">₹3,250</p>
+       <a href="https://www.amazon.in/Lattafa-Khamrah-Perfume-Collection-Fragrance/dp/B0C1X8621W/ref=sr_1_5?crid=ICZOXS53Y2LF&dib=eyJ2IjoiMSJ9.U7rN28JD8UtPDqzJh3n3QG-m5qS6eXtzm4D71YhsB0Uyh_TjiXUPZsstH-sbf9wSmzJ8YgtJERNUeBIXHr9Q6M-nUSAy1TmQx7OpfJR-AW9FuTFmhbqhb4OsmMaZsaa4TwrhCNCp9Z0emxn8C4Eenj7004H-71MLqKzLHN_Qu88zqBdYi03ARnsDg3rVAaO8u8My84KQ2tzYHaQV56tWKZuMENuVmjwpcXyQjK7GNBLR0XEDMFN2DWXTmFrmEopV5fdehV7if3Cn-Q_VfRXQ447R3kvvtZxi5ZyRYYYBhx0.85ZIfaH9w66it_bYvvHGhMykKnN19zaY43weJo_L0YY&dib_tag=se&keywords=lattafa%2Bkhamrah&qid=1773053419&sprefix=lattafa%2Bkhamrah%2Caps%2C373&sr=8-5&th=1"> <button >Add to Cart</button></a>
+    </div>
+
+   
+<div class="product">
+        <img src="mk.png">
+        <h3>Blue Heaven MakeUp Kit</h3>
+        <p class="price">₹640 </p>
+       <a href="https://www.amazon.in/Blue-Heaven-Festive-Vanilla-Multicolour/dp/B09HSPHL7M/ref=sr_1_6_in_f3_0o_fs_mod_primary_alm?crid=11HV6684BA5U2&dib=eyJ2IjoiMSJ9.6d7axUmrzfqj1hohzVm3bmC43UozHNwKyyTh9TR9QIoG8cQqsh2_PxvYfFQrUy_ALSdjLKM_EAiGG3YL_15WeupiVu2Xh1Gs5sYZNlsllTodb81FdTLBTNmHpwsJ9wjN8sgx4L5JLjTBq6Ell3M3woJ7y-5tWCRTuU9cj7pvKS0SxseStoLOf7hml0noHAJyqHk4P_0sgNe7orpvv_he8qGtM6euyDVPWUyG91DhrjZ016z_UoVGTvyXaFwUe7d1n4gMBXQ0n8B2DTZXmdZIHld-D6iZ1ri-e5zpVzYtEkQ.lV4_JxQA903Znl-yRMjM-A2pwdN0-SxB1BfSgGpEajY&dib_tag=se&keywords=maybelline%2Bmakeup%2Bkit&qid=1773054632&sbo=m6DjfpMzMLDmL8pSMKX8hw%3D%3D&sprefix=maybelline%2Bmakeup%2Bkit%2Caps%2C453&sr=8-6&th=1"> <button>Add to Cart</button></a>
+    </div>
+
+    </div>
+<div class="container">
+
+    
+    <div class="product">
+        <img src="sw.png">
+        <h3>AMOLED Smart Watch</h3>
+        <p class="price">₹1,899 </p>
+       <a href="https://www.amazon.in/Noise-Launched-Display-Calling-Battery/dp/B0CG1Y3336/ref=sr_1_3?crid=2W00G0V2M0JGJ&dib=eyJ2IjoiMSJ9.izaeDEQEZ0a2p1A2eZNeTuSHyhLdyOOv428Eo9lptIpoKS4e3lSSSklOXM3GqVTEiZaekK1vZNcsbrp02jzkLPxbQKrbTueW0Xeka1WY4fXPnsQzTFtdMEMRZ_20gO7Yr7wjHAblGduKjWTquGm34_XKDTIis25R0CqmP9OVYyxchwdbqMC2QDrky_4lTUD8HnucillDKzYrx2I3nWSAvmwJGlcvgIXfpd584gVwTdc.q_2-8g33CF1xRgs2EDiVAD7GeW_3gIJPp-snFVSovdU&dib_tag=se&keywords=amoled%2Bsmart%2Bwatch&qid=1773055744&sprefix=amoled%2Bsmart%2Bwatch%2Caps%2C386&sr=8-3&th=1"> <button>Add to Cart</button></a>
+    </div>
+</div>
+<div class="container">
+
+    <div class="product">
+        <img src="dro.png">
+        <h3>Drone (DJI Mini 4 Pro)  </h3>
+        <p class="price">₹11,553 </p>
+       <a href="https://www.amazon.in/INNVO-Waterproof-DJI-Mini-Pro/dp/B0CL58MKLC/ref=sr_1_8?crid=ZS5GFSYI4A2T&dib=eyJ2IjoiMSJ9.yz6S79tXSLUpAYre4br0K69c72SJbKGkvsOMGqZDgO7zEkxNNpljwE8fcWkB0RnLHbjuLZ2wxuPjWG3w1eWWC00oBCq7qiz2yV1CCmbgcH-2MTKFOTyDNq4NODXmZKh16seR9-26OJ7i0i-NG3mONy9epxCPQ2D3M52hmZVeBbKark8nnAT5-cvSVGJAw5UeQcwvQYnL7fnZFUbR7xeN_BNWQ-a4oGEywE4gZVErqJsTwWIpwaxufCKn5PRue6QCgQXB5PR7o7-biKRutRdeANbCmvOWdLGgtHaUNJ0sd_Q.JHS6B8Ebo7g8FkyuSJGKZcZtHy5ZwOOjTibXmaYgdRY&dib_tag=se&keywords=dji+mini+4+pro&nsdOptOutParam=true&qid=1773055150&sprefix=dji+mini+4+pro%2Caps%2C410&sr=8-8"> <button >Add to Cart</button></a>
+    </div>
+
+    <div class="product">
+        <img src="sw.png">
+        <h3>AMOLED Smart Watch</h3>
+        <p class="price">₹1,899 </p>
+       <a href="https://www.amazon.in/Noise-Launched-Display-Calling-Battery/dp/B0CG1Y3336/ref=sr_1_3?crid=2W00G0V2M0JGJ&dib=eyJ2IjoiMSJ9.izaeDEQEZ0a2p1A2eZNeTuSHyhLdyOOv428Eo9lptIpoKS4e3lSSSklOXM3GqVTEiZaekK1vZNcsbrp02jzkLPxbQKrbTueW0Xeka1WY4fXPnsQzTFtdMEMRZ_20gO7Yr7wjHAblGduKjWTquGm34_XKDTIis25R0CqmP9OVYyxchwdbqMC2QDrky_4lTUD8HnucillDKzYrx2I3nWSAvmwJGlcvgIXfpd584gVwTdc.q_2-8g33CF1xRgs2EDiVAD7GeW_3gIJPp-snFVSovdU&dib_tag=se&keywords=amoled%2Bsmart%2Bwatch&qid=1773055744&sprefix=amoled%2Bsmart%2Bwatch%2Caps%2C386&sr=8-3&th=1"> <button>Add to Cart</button></a>
+    </div>
+<div class="product">
+        <img src="cm.png">
+        <h3>Canon EOS R6 Mark </h3>
+        <p class="price">₹3,43,995  </p>
+       <a href="https://www.amazon.in/Canon-24-105mm-Full-Frame-Autofocus-Recording/dp/B0G12L482X/ref=sr_1_3?crid=1MFCYIK4GWQL8&dib=eyJ2IjoiMSJ9.eTlzDhBiY1pQWZiw5qBcS1sZNM55CKsmYgECCnM9PhwyD71Li8LS0TgN-UPrqzPg0c429q-uryl5tCO2UhiKNuLTnEwYioLK4iH4CIHCxq4Ewl_HPjcuOfAJUHN5HtY3AIrJi1t7AKmUM1968iqwfe-h_nEWGM1e3xGbDWH8tLMwqW7iBIb7LmWSDh4irPX2HubJUqqn8WXz0kbKOwkmU5uxfeyL1WiKmcbhL_v0nxs.kNVHVF7gOhp4MwwyLmhJlp17GmwEtYFzp1Ub-n1OCPU&dib_tag=se&keywords=canon%2Beos%2Br6&qid=1773056532&sprefix=%2Caps%2C403&sr=8-3&th=1"> <button>Add to Cart</button></a>
+    </div>
+
+</div>
+</div>
+<div class="container">
+
+    <div class="product">
+        <img src="dro.png">
+        <h3>Drone (DJI Mini 4 Pro)  </h3>
+        <p class="price">₹11,553 </p>
+       <a href="https://www.amazon.in/INNVO-Waterproof-DJI-Mini-Pro/dp/B0CL58MKLC/ref=sr_1_8?crid=ZS5GFSYI4A2T&dib=eyJ2IjoiMSJ9.yz6S79tXSLUpAYre4br0K69c72SJbKGkvsOMGqZDgO7zEkxNNpljwE8fcWkB0RnLHbjuLZ2wxuPjWG3w1eWWC00oBCq7qiz2yV1CCmbgcH-2MTKFOTyDNq4NODXmZKh16seR9-26OJ7i0i-NG3mONy9epxCPQ2D3M52hmZVeBbKark8nnAT5-cvSVGJAw5UeQcwvQYnL7fnZFUbR7xeN_BNWQ-a4oGEywE4gZVErqJsTwWIpwaxufCKn5PRue6QCgQXB5PR7o7-biKRutRdeANbCmvOWdLGgtHaUNJ0sd_Q.JHS6B8Ebo7g8FkyuSJGKZcZtHy5ZwOOjTibXmaYgdRY&dib_tag=se&keywords=dji+mini+4+pro&nsdOptOutParam=true&qid=1773055150&sprefix=dji+mini+4+pro%2Caps%2C410&sr=8-8"> <button >Add to Cart</button></a>
+    </div>
+
+    <div class="product">
+        <img src="sw.png">
+        <h3>AMOLED Smart Watch</h3>
+        <p class="price">₹1,899 </p>
+       <a href="https://www.amazon.in/Noise-Launched-Display-Calling-Battery/dp/B0CG1Y3336/ref=sr_1_3?crid=2W00G0V2M0JGJ&dib=eyJ2IjoiMSJ9.izaeDEQEZ0a2p1A2eZNeTuSHyhLdyOOv428Eo9lptIpoKS4e3lSSSklOXM3GqVTEiZaekK1vZNcsbrp02jzkLPxbQKrbTueW0Xeka1WY4fXPnsQzTFtdMEMRZ_20gO7Yr7wjHAblGduKjWTquGm34_XKDTIis25R0CqmP9OVYyxchwdbqMC2QDrky_4lTUD8HnucillDKzYrx2I3nWSAvmwJGlcvgIXfpd584gVwTdc.q_2-8g33CF1xRgs2EDiVAD7GeW_3gIJPp-snFVSovdU&dib_tag=se&keywords=amoled%2Bsmart%2Bwatch&qid=1773055744&sprefix=amoled%2Bsmart%2Bwatch%2Caps%2C386&sr=8-3&th=1"> <button>Add to Cart</button></a>
+    </div>
+<div class="product">
+        <img src="cm.png">
+        <h3>Canon EOS R6 Mark </h3>
+        <p class="price">₹3,43,995  </p>
+       <a href="https://www.amazon.in/Canon-24-105mm-Full-Frame-Autofocus-Recording/dp/B0G12L482X/ref=sr_1_3?crid=1MFCYIK4GWQL8&dib=eyJ2IjoiMSJ9.eTlzDhBiY1pQWZiw5qBcS1sZNM55CKsmYgECCnM9PhwyD71Li8LS0TgN-UPrqzPg0c429q-uryl5tCO2UhiKNuLTnEwYioLK4iH4CIHCxq4Ewl_HPjcuOfAJUHN5HtY3AIrJi1t7AKmUM1968iqwfe-h_nEWGM1e3xGbDWH8tLMwqW7iBIb7LmWSDh4irPX2HubJUqqn8WXz0kbKOwkmU5uxfeyL1WiKmcbhL_v0nxs.kNVHVF7gOhp4MwwyLmhJlp17GmwEtYFzp1Ub-n1OCPU&dib_tag=se&keywords=canon%2Beos%2Br6&qid=1773056532&sprefix=%2Caps%2C403&sr=8-3&th=1"> <button>Add to Cart</button></a>
+    </div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>
